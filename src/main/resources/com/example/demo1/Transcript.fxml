@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="184.0" layoutY="107.0" prefHeight="17.0" prefWidth="203.0" text="APPLICATION FOR TRANSCRIPT" />
+      <TextField layoutX="71.0" layoutY="163.0" prefHeight="25.0" prefWidth="445.0" promptText="Index number" />
+      <TextField layoutX="71.0" layoutY="206.0" prefHeight="25.0" prefWidth="445.0" promptText="Surname" />
+      <TextField layoutX="71.0" layoutY="252.0" prefHeight="25.0" prefWidth="445.0" promptText="Other names" />
+      <DatePicker layoutX="71.0" layoutY="301.0" prefHeight="25.0" prefWidth="445.0" promptText="Date of Birth" />
+      <TextField layoutX="71.0" layoutY="348.0" prefHeight="25.0" prefWidth="445.0" promptText="Phone number" />
+      <TextField layoutX="71.0" layoutY="391.0" prefHeight="25.0" prefWidth="445.0" promptText="Program" />
+      <CheckBox layoutX="72.0" layoutY="440.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="152.0" text="Select if tou are alumni" />
+      <TextField layoutX="238.0" layoutY="443.0" prefHeight="25.0" prefWidth="278.0" promptText="Year of completion" />
+      <Button fx:id="finishButton" layoutX="255.0" layoutY="511.0" mnemonicParsing="false" onAction="#thirdInterface" style="-fx-background-color: #0b3b68e8;" text="Submit" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0b3b68e8" height="68.0" stroke="#c90d0d" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <Label alignment="TOP_LEFT" layoutX="181.0" layoutY="74.0" prefHeight="30.0" prefWidth="268.0" text="Koforidua Technical University ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Text layoutX="186.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All details are to be filled in correctly.">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="47.0" layoutY="12.0" prefHeight="30.0" prefWidth="496.0" text="KTU - Student Transcript System " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

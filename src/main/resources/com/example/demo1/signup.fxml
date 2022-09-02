@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.sigup">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0b3b68e8" height="68.0" stroke="#c90d0d" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="602.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="48.0" layoutY="12.0" prefHeight="30.0" prefWidth="496.0" text="KTU - Student Transcript System " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Pane layoutX="126.0" layoutY="127.0" prefHeight="390.0" prefWidth="349.0" style="-fx-border-color: #0b3b68e8;">
+         <children>
+            <TextField fx:id="txtgmail" alignment="CENTER" layoutX="11.0" layoutY="120.0" prefHeight="30.0" prefWidth="328.0" promptText="Institutional Gmail">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtpassword" alignment="CENTER" layoutX="11.0" layoutY="162.0" prefHeight="30.0" prefWidth="158.0" promptText="Password">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </TextField>
+            <Label contentDisplay="CENTER" layoutX="118.0" layoutY="66.0" prefHeight="44.0" prefWidth="117.0" text="Sign Up" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Black" size="26.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="44.0" layoutY="15.0" prefHeight="30.0" prefWidth="268.0" text="Koforidua Technical University ">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+            <Line endX="288.0" layoutX="46.0" layoutY="60.0" opacity="0.11" startX="-32.0" stroke="#797373" />
+            <TextField fx:id="txtusername" alignment="CENTER" layoutX="180.0" layoutY="162.0" prefHeight="30.0" prefWidth="158.0" promptText="Confirm Password">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </TextField>
+            <Text layoutX="15.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By clicking Register, you agree to the Terms and Conditions set out by KTU." wrappingWidth="321.0" />
+         </children>
+      </Pane>
+      <Button fx:id="nextButton" layoutX="256.0" layoutY="393.0" mnemonicParsing="false" onAction="signup#" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #0b3b68e8;" text="Sign In" textFill="WHITE" />
+   </children>
+</AnchorPane>
